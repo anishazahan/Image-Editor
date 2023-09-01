@@ -1,5 +1,7 @@
+import Main from "./components/Main";
+
 function App() {
-  return <h2>hellow</h2>;
+  return <Main></Main>;
 }
 
 export default App;
