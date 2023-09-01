@@ -162,11 +162,11 @@ const Main = () => {
       image: base64Url,
     });
   };
-  const saveImage = () => {
-    const canvas = document.createElement("canvas");
-    canvas.width = details.naturalHeight;
-    canvas.height = details.naturalHeight;
-    const ctx = canvas.getContext("2d");
+//   const saveImage = () => {
+//     const canvas = document.createElement("canvas");
+//     canvas.width = details.naturalHeight;
+//     canvas.height = details.naturalHeight;
+//     const ctx = canvas.getContext("2d");
 
     ctx.filter = `brightness(${state.brightness}%) brightness(${state.brightness}%) sepia(${state.sepia}%) saturate(${state.saturate}%) contrast(${state.contrast}%) grayscale(${state.grayscale}%) hue-rotate(${state.hueRotate}deg)`;
 
