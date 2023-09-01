@@ -67,15 +67,15 @@ const Main = () => {
     storeData.insert(stateData);
   };
 
-  const rightRotate = () => {
-    setState({
-      ...state,
-      rotate: state.rotate + 90,
-    });
-    const stateData = state;
-    stateData.rotate = state.rotate + 90;
-    storeData.insert(stateData);
-  };
+  //   const rightRotate = () => {
+  //     setState({
+  //       ...state,
+  //       rotate: state.rotate + 90,
+  //     });
+  //     const stateData = state;
+  //     stateData.rotate = state.rotate + 90;
+  //     storeData.insert(stateData);
+  //   };
   const varticalFlip = () => {
     setState({
       ...state,
