@@ -48,4 +48,4 @@ class linkedList {
 
 const storeData = new linkedList();
 
-// export default storeData;
+export default storeData;
