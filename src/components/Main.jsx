@@ -241,12 +241,12 @@ const Main = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="reset">
+            <div className="reset">
               <button>Reset</button>
               <button onClick={saveImage} className="save">
                 Save Image
               </button>
-            </div> */}
+            </div>
           </div>
           <div className="image_section">
             <div className="image">
