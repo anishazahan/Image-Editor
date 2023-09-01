@@ -96,12 +96,12 @@ const Main = () => {
     storeData.insert(stateData);
   };
 
-  //   const redo = () => {
-  //     const data = storeData.redoEdit();
-  //     if (data) {
-  //       setState(data);
-  //     }
-  //   };
+  const redo = () => {
+    const data = storeData.redoEdit();
+    if (data) {
+      setState(data);
+    }
+  };
   const undo = () => {
     const data = storeData.undoEdit();
     if (data) {
