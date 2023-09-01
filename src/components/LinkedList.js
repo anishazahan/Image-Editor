@@ -46,6 +46,6 @@ class linkedList {
   };
 }
 
-const storeData = new linkedList();
+// const storeData = new linkedList();
 
 export default storeData;
